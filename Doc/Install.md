@@ -1,30 +1,30 @@
 
-# **Big Data 4 All** - Installation guide
+# Big Data 4 All - Installation guide
 
-### **Seiji SCHOCH** - **October 15th 2018** - ** Version 0.1**
+### Seiji SCHOCH - October 15th 2018 - Version 0.1
 
 
-# **Purpose**
+# Purpose
 
 This present document describes the installation steps to prepare your server to host Hadoop services. This document relies heavily on the Apache Ambari documentation found [here](https://docs.hortonworks.com/HDPDocuments/Ambari-2.7.1.0/bk_ambari-installation/content/ch_Getting_Ready.html).
 
-# **Technical Stack**
+# Technical Stack
 
 We will be using the Hortonworks distribution of Hadoop : [HDP](https://fr.hortonworks.com/products/data-platforms/hdp/)
 
 As of today, we will use HDP 3.0
 
-# **Hardware requirements**
+# Hardware requirements
 
 The condition to join the project is to contribute a dedicate server with at least 4 cores, 16Go RAM and 1To HDD. Kimsufi provides such servers for a low cost [here](https://www.kimsufi.com/fr/serveurs.xml). We suggest one of the three following offers : KS-10, KS-11 or KS-12.
 
-# **Software requirements**
+# Software requirements
 
-### **Operating system**
+### Operating system
 
 You are required to have a CentOS 7 distribution running on the server. We have chosen to limit the OS choice to avoid the complexity of having a multi-OS cluster.
 
-### **Software**
+### Software
 
 The installation script will install the following software on your server : **scp, curl, unzip, tar, wget, openssl, python27, ntp.**
 
@@ -51,7 +51,7 @@ Once the host is ready for ambari, various Hadoop services will be installed on 
  - Ambari
  - CloudBreak
 
-# **Installation**
+# Installation
 
 Move your current directory to the repository’s root folder :
 
