@@ -8,7 +8,11 @@ wget https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz
 tar xzf Python-2.7.15.tgz
 cd Python-2.7.15
 ./configure --enable-optimizations
-make Install
+make install
+
+# remove install Python
+cd ../
+rm -rf Python-2.7.15
 
 #Install utils
 yum -y install scp curl unzip tar wget openssl python27 ntp
