@@ -75,7 +75,7 @@ Move to your home directory and unzip the install.zip file :
 
     cd /home
 
-    Unzip install.zip
+    unzip install.zip
 
 Run the install_env_agent.sh script
 
