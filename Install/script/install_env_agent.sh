@@ -3,7 +3,7 @@
 yum -y update
 
 # pytho 2.7
-yum install gcc openssl-devel bzip2-devel
+yum install -y gcc openssl-devel bzip2-devel
 wget https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz
 tar xzf Python-2.7.15.tgz
 cd Python-2.7.15
