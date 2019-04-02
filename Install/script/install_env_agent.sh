@@ -31,7 +31,7 @@ service firewalld stop
 setenforce 0
 
 # SSH key generation
-ssh-keygen -t rsa -N ""
+ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
 
 #Set UMASK
 echo umask 0022 >> /etc/profile
